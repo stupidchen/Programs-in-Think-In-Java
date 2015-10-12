@@ -11,6 +11,9 @@ public class GetHtmlSource{
     public GetHtmlSource(){
         PagePath = new String("http://www.google.com");
     }
+    public GetHtmlSource(String value){
+        PagePath = value;
+    }
     public void setPagePath(String PathStr){
         PagePath = PathStr;
     }

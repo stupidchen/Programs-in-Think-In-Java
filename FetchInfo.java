@@ -13,6 +13,10 @@ public class FetchInfo{
         keyWord = new String("");
         source = new String("");
     }
+    public FetchInfo(String value0, String value1){
+        keyWord = value0;
+        source = value1;
+    }
     public void setKeyword(String value){
         keyWord = value;
     }
